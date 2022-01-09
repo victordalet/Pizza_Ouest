@@ -8,8 +8,21 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="../menu/style.css" />
+    <script type="text/javascript" src="../assets/vue.js"></script>
   </head>
   <body>
+
+
+
+
+    <div id="app">
+      <div class="cursor">
+        <div class="cursor__pointer" ref="cursorPointer"></div>
+        <div class="cursor__follow" ref="cursorFollow"></div>
+      </div>
+    </div>
+
+
 
     <section class="light">
       <div class="container py-2">
@@ -31,7 +44,7 @@
         </article>
 
         <article class="postcard light red">
-            <iframe class='postcard_img' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8472565576917!2d2.1191274155439768!3d48.86112297928774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e662caa0eba503%3A0x9d0d71cd53beec8b!2sLouveciennes!5e0!3m2!1sfr!2sfr!4v1641675521427!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class='postcard__img' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8472565576917!2d2.1191274155439768!3d48.86112297928774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e662caa0eba503%3A0x9d0d71cd53beec8b!2sLouveciennes!5e0!3m2!1sfr!2sfr!4v1641675521427!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <div class="postcard__text t-dark">
             <h1 class="postcard__title red"><a href="#">Louveciennes</a></h1>
             <div class="postcard__bar"></div>
@@ -40,7 +53,7 @@
         </article>
 
         <article class="postcard light blue">
-            <iframe class='postcard_img' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.175957743658!2d2.1298101155437315!3d48.85485497928719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67d2e0f02f463%3A0xf88b2dcd2fbddf26!2sRue%20Cardon%2C%20Bougival!5e0!3m2!1sfr!2sfr!4v1641675581602!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <iframe class='postcard__img' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.175957743658!2d2.1298101155437315!3d48.85485497928719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67d2e0f02f463%3A0xf88b2dcd2fbddf26!2sRue%20Cardon%2C%20Bougival!5e0!3m2!1sfr!2sfr!4v1641675581602!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
           <div class="postcard__text t-dark">
             <h1 class="postcard__title blue"><a href="#">Bougival</a></h1>
             <div class="postcard__bar"></div>
@@ -49,6 +62,7 @@
         </article>
       </div>
     </section>
-
+    <script src='../index/script.js'></script>
+  <script src='script.js'></script>
   </body>
 </html>
