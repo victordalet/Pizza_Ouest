@@ -8,25 +8,82 @@
     <link rel="stylesheet" href="index/style.css" />
     <script type="text/javascript" src="assets/vue.js"></script>
   </head>
+
   <body>
+<div class="background">
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+   <span></span>
+
 
     <div id="app">
       <header class="header">
         <nav class="header__nav">
           <ul class="header__list">
-            <li v-for="item in items" class="header__item"><a class="button js-button">{{ item.page }}</a></li>
+            <li v-for="item in items"  class="header__item"><a href='#' class="button js-button">{{ item.page1 }}</a></li>
+            <li v-for="item in items"  class="header__item"><a href='menu/index.html' class="button js-button">{{ item.page2 }}</a></li>
+            <li v-for="item in items"  class="header__item"><a href='contact/index.html' class="button js-button">{{ item.page3 }}</a></li>
           </ul>
         </nav>
       </header>
     <div class="container-btn">
-      <a href="#" class="btn">Nous Trouver</a>
+      <a href="contact/index.html" class="btn">Nous Trouver</a>
     </div>
+
       <div class="cursor">
         <div class="cursor__pointer" ref="cursorPointer"></div>
         <div class="cursor__follow" ref="cursorFollow"></div>
       </div>
     </div>
-
+</div>
     <script type="text/javascript" src="index/script.js"></script>
+
   </body>
 </html>

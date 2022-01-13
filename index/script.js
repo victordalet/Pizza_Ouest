@@ -51,7 +51,7 @@ for (let i = 0; i < button.length; i++) {
 const app = Vue.createApp({
   data() {
     return {
-      items: [{ page: "Pizza Ouest" }, { page: "Menu" }, { page: "contact" }],
+      items: [{ page1: "Pizza Ouest" }, { page2: "Menu" }, { page3: "contact" }],
       cursorPosX: 0,
       cursorPosY: 0,
       cursorFollowActiveBuffer: 16,
@@ -119,3 +119,6 @@ const app = Vue.createApp({
 });
 
 app.mount("#app");
+
+
+/*****************/
